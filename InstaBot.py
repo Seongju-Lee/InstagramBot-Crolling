@@ -22,10 +22,10 @@ username_box_check = WebDriverWait(driver, 10).until(EC.presence_of_element_loca
 driver.find_elements_by_xpath('//*[@id="loginForm"]/div/div[5]/button')[0].click() # 페이스북 로그인
 
 username_box = driver.find_elements_by_xpath('//*[@id="email"]')[0]
-username_box.send_keys("01037038419") #페이스북 ID
+username_box.send_keys("ID") #페이스북 ID
 
 username_box = driver.find_elements_by_xpath('//*[@id="pass"]')[0]
-username_box.send_keys("dltjdwn123!") #페이스북 PW
+username_box.send_keys("PW") #페이스북 PW
 
 login_button = driver.find_elements_by_xpath('//*[@id="loginbutton"]')[0]
 login_button.click() # 로그인 버튼
