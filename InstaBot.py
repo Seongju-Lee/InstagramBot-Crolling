@@ -12,7 +12,7 @@ import re
 
 # chrome driver 연결 및 instagram 로그인 접속 후 해시태그 검색
 
-driver = webdriver.Chrome("C:/Users/eunhaengdong/Desktop/InstagramBot-master/InstagramBot-master/chromedriver88.exe")
+driver = webdriver.Chrome("C:/Users/lsj40/Documents/GitHub/InstagramBot/chromedriver/chromedriver88.exe")
 driver.implicitly_wait(200)
 driver.get("https://www.instagram.com/") # 인스타그램 접속
 
