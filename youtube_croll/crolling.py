@@ -4,7 +4,7 @@ from selenium import webdriver
 options = webdriver.ChromeOptions()
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
 # 드라이버 bluetooth 자동종료 제거 option
-driver = webdriver.Chrome("./chromedriver89.exe", options = options)
+driver = webdriver.Chrome("/chromedriver/chromedriver89.exe", options = options)
 driver.implicitly_wait(200)
 
 
